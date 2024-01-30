@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Farro' 'Vina Sans' sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.SOCIAL-MEDIA {
+    background: #492405;
+    padding: 15px;
+    text-align: center;
+}
+
+.SOCIAL-MEDIA a {
+    padding: 20px;
+    font-size: 30px;
+    color: #F0A04B;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #492405;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.logo {
+    max-width: 180px;
+    cursor: pointer;
+}
